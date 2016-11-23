@@ -28,5 +28,11 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result is a single version of the file that contain both changes. Beacause it's one branch out of the master branch but when merge occurs of this branch into the master the changes are added.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
+Pros:
+- Get automatically changes without reviewing the existing code.
+
+Cons:
+-It's not safe.
 
