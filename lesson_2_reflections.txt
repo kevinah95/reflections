@@ -24,5 +24,9 @@ How do the diagrams help you visualize the branch structure?
 
 They show me how the repo-tree is flowing. That is, show me my workflow.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a single version of the file that contain both changes. Beacause it's one branch out of the master branch but when merge occurs of this branch into the master the changes are added.
+
 
 
