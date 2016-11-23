@@ -1,11 +1,28 @@
 What happens when you initialize a repository? Why do you need to do it?
+
 A `.git/` directory is created and it's needed for git operations in background.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
 The staging area saves local changes and could be modified or reverted. The value is that this area prepare the files to be commited or that I want to be commited.
+
 How can you use the staging area to make sure you have one commit per logical change?
+
 Using the command `git diff` without arguments. And playing with the Working Place, Staging Area and Repository Commits.
 Useful commands:
 $ git diff -> Working Place & Staging area
 $ git diff --staged -> Staging Area & Last Commit
 $ git diff Commit1 Commit2
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When lets try to add another feature or custom config files or bug fixes. To make a clean project.
+
+git log --graph --oneline
+
+How do the diagrams help you visualize the branch structure?
+
+They show me how the repo-tree is flowing. That is, show me my workflow.
+
+
+
